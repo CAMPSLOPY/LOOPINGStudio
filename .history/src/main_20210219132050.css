@@ -7,7 +7,7 @@
 
 
 body{
-    scroll-behavior: smooth;
+    scroll-behavior: ;
 }
 .header-image {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),

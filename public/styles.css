@@ -31218,6 +31218,10 @@ video {
           animation: bounce 1s infinite;
 }
 
+body{
+  scroll-behavior: smooth;
+}
+
 .header-image {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
     url(/public/images/desktop/image-hero.jpg);
