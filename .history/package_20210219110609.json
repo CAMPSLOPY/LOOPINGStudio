@@ -1,0 +1,23 @@
+{
+  "name": "LOOPINGStudio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAMPSLOPY/LOOPINGStudio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CAMPSLOPY/LOOPINGStudio/issues"
+  },
+  "homepage": "https://github.com/CAMPSLOPY/LOOPINGStudio#readme",
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
