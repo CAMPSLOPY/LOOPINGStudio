@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    scroll-behavior: smooth;
+}
+.header-image {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(/public/images/desktop/image-hero.jpg);
+}
+
+.earth {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-deep-earth.jpg);
+}
+
+ .arcade {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-night-arcade.jpg);
+}
+.vr {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-soccer-team.jpg);
+}
+
+.gridd {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-grid.jpg);
+}
+
+.above-vr {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-from-above.jpg);
+}
+
+.borealis {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-pocket-borealis.jpg);
+}
+
+.curiosity {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-curiosity.jpg);
+}
+.fisheye {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-fisheye.jpg);
+}
+
+
+
+.card:hover {
+  opacity: 0.3;
+  color: white;
+}
+
+.menu:hover {
+  border-bottom: 1px solid #0000;
+}
+
+.footer-body {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.footer-logo ul li a img:hover {
+  border-bottom-width: 3px;
+  border-color: #fff;
+}
+
+.footer-logo ul li a img:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.footer-link ul li a:hover {
+  border-bottom: 3px solid white;
+}
+.footer-logo ul li a img:hover:after {
+  border-bottom: 3px solid white;
+}
+nav ul li a:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+nav ul li a:hover:after {
+  border-bottom: 3px solid white;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+
+
+/* Mobile view background img */
+
+

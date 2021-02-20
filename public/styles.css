@@ -31218,7 +31218,7 @@ video {
           animation: bounce 1s infinite;
 }
 
-body{
+html{
   scroll-behavior: smooth;
 }
 
@@ -31267,10 +31267,10 @@ body{
     url(../public/images/desktop/image-fisheye.jpg);
 }
 
-.card:hover {
+/* .card:hover {
   opacity: 0.3;
   color: white;
-}
+} */
 
 .menu:hover {
   border-bottom: 1px solid #0000;
@@ -31315,6 +31315,70 @@ nav ul li a:hover:after {
 
 body{
   overflow-x: hidden;
+}
+
+#card-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+#card-box:hover:before {
+  opacity: 1;
+}
+
+#card-box:hover .card-box-p {
+  color: black;
+  z-index: 3;
+}
+
+.toggle{
+  top: -20px;
+  right: -15px;
+}
+
+.toggle .fa-times{
+  font-size: 2.7rem;
+}
+
+.burger{
+  position: relative;
+  right: 2%;
+  cursor: pointer;
+}
+
+.burger span{
+  padding: 0.0875rem 1.25rem;
+  background: white;
+  margin: 0.5rem 0rem;
+  display: block;
+  transition: all ease 1s;
+}
+
+.nav-open{
+  transform: translateX(100%);
+}
+
+.toggle .line1{
+  transform: rotateZ(40deg) translateY(300%);
+  background: white;
+}
+
+.toggle .line2{
+  opacity: 0;
+}
+
+.toggle .line3{
+  transform: rotateZ(-40deg) translateY(-300%);
+  background-color: white;
 }
 
 /* Mobile view background img */

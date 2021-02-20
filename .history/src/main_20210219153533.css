@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    scroll-behavior: smooth;
+}
+.header-image {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(/public/images/desktop/image-hero.jpg);
+}
+
+.earth {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-deep-earth.jpg);
+}
+
+ .arcade {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-night-arcade.jpg);
+}
+.vr {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-soccer-team.jpg);
+}
+
+.gridd {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-grid.jpg);
+}
+
+.above-vr {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-from-above.jpg);
+}
+
+.borealis {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-pocket-borealis.jpg);
+}
+
+.curiosity {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-curiosity.jpg);
+}
+.fisheye {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
+    url(../public/images/desktop/image-fisheye.jpg);
+}
+
+
+
+/* .card:hover {
+  opacity: 0.3;
+  color: white;
+} */
+
+.menu:hover {
+  border-bottom: 1px solid #0000;
+}
+
+.footer-body {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.footer-logo ul li a img:hover {
+  border-bottom-width: 3px;
+  border-color: #fff;
+}
+
+.footer-logo ul li a img:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.footer-link ul li a:hover {
+  border-bottom: 3px solid white;
+}
+.footer-logo ul li a img:hover:after {
+  border-bottom: 3px solid white;
+}
+nav ul li a:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+nav ul li a:hover:after {
+  border-bottom: 3px solid white;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+#card-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+
+#card-box:hover:before {
+    opacity: 1;
+}
+
+#card-box:hover .card-box-p {
+    color: black;
+    z-index: 3;
+}
+
+.toggle{
+    top: -20px;
+    right: -15px;
+}
+
+.toggle .fa-times{
+    font-size: 2.7rem;
+}
+
+.burger{
+    position: relative;
+    right: 2%;
+    cursor: pointer;
+}
+
+.burger span{
+padding: 0.0875rem 1.25rem;
+background: white;
+margin: 0.2rem 0rem;
+display: block;
+transition: all ease 1s;
+}  
+.nav-open{
+    transform: translateX(-100%);
+} 
+
+.toggle .line1{
+  transform: rotateZ(40deg) translateY(300%);
+  background: white;
+} 
+.toggle .line2{
+  opacity: 0;
+} 
+.toggle .line3{
+  transform: rotateZ(-40deg) translateY(-300%);
+  background-color: white;
+}
+/* Mobile view background img */
+
+
