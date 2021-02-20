@@ -11,7 +11,7 @@ togglebtn.addEventListener("click", () => {
   modal.style.display = "none";
 });
 links.forEach((link) => {
-  link.addEventListener("click", () => {
+  .addEventListener("click", () => {
     modal.style.display = "none";
   });
 });
