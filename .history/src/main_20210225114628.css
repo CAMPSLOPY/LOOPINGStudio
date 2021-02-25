@@ -135,7 +135,7 @@ body{
 /* desktop styling for the nav links */
 .nav-item {
   list-style: none;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   margin: 0 auto;
   margin-left: 1.5rem;
@@ -150,7 +150,7 @@ body{
 .nav-link::after {
   content: "";
   position: absolute;
-  top: 2rem;
+  top: 1rem;
   background-color: #fff;
   height: .2rem;
   width: 0%;
@@ -161,7 +161,7 @@ body{
 .nav-link::before {
   content: "";
   position: absolute;
-  top: 2rem;
+  top: 1rem;
   background-color: #fff;
   height: .2rem;
   width: 0%;

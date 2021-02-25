@@ -150,7 +150,7 @@ body{
 .nav-link::after {
   content: "";
   position: absolute;
-  top: 2rem;
+  bottom: 1rem;
   background-color: #fff;
   height: .2rem;
   width: 0%;
@@ -161,7 +161,7 @@ body{
 .nav-link::before {
   content: "";
   position: absolute;
-  top: 2rem;
+  bottom: 1rem;
   background-color: #fff;
   height: .2rem;
   width: 0%;

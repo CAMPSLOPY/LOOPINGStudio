@@ -175,7 +175,7 @@ body{
   left: 20%;
 }
 .nav-link:hover::after,.nav-link:hover::before {
-  width: 2rem;
+  width: 1rem;
   opacity: 1;
 }
 
