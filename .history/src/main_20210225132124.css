@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,200;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 @tailwind base;
 @tailwind components;
@@ -137,7 +138,6 @@ body {
   position: relative;
   color: #fff;
   text-decoration: none;
-  font-family: "Alata", sans-serif;
 }
 
 .nav-link::after {
@@ -163,16 +163,16 @@ body {
 }
 
 .nav-link::before {
-  right: 32%;
+  right: 10%;
 }
 
 .nav-link::after {
-  left: 32%;
+  left: 0%;
 }
 
 .nav-link:hover::after,
 .nav-link:hover::before {
-  width: 0.8rem;
+  width: 2rem;
   opacity: 1;
 }
 
@@ -218,7 +218,6 @@ body {
   position: relative;
   color: #fff;
   text-decoration: none;
-  font-family: "Alata", sans-serif;
 }
 
 .footer-item {
@@ -233,9 +232,4 @@ body {
 .footer-link:hover::before {
   width: 0.8rem;
   opacity: 1;
-}
-
-.footer-logo h3 {
-  font-family: 'Alata', sans-serif;
-  
 }

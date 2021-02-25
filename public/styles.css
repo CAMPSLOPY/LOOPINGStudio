@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,200;1,400&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 
@@ -31218,7 +31216,7 @@ video {
           animation: bounce 1s infinite;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -31277,25 +31275,24 @@ html{
   left: 50%;
 }
 
-.footer-logo ul li a img:hover {
+/* .footer-logo ul li a img:hover {
   border-bottom-width: 3px;
   border-color: #fff;
-}
+} */
 
-.footer-logo ul li a img:after {
+/* .footer-logo ul li a img:after {
   content: "";
   display: block;
   margin: 0 auto;
   width: 30%;
-}
+} */
 
-.footer-link ul li a:hover {
+/* .footer-link ul li a:hover {
   border-bottom: 3px solid white;
 }
-
 .footer-logo ul li a img:hover:after {
   border-bottom: 3px solid white;
-}
+} */
 
 /* nav ul li a:after {
   content: "";
@@ -31307,7 +31304,7 @@ nav ul li a:hover:after {
   border-bottom: 3px solid white;
 } */
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -31334,12 +31331,12 @@ body{
   z-index: 3;
 }
 
-.toggle{
+.toggle {
   top: -20px;
   right: -15px;
 }
 
-.toggle .fa-times{
+.toggle .fa-times {
   font-size: 2.7rem;
 }
 
@@ -31347,7 +31344,7 @@ body{
 
 .nav-item {
   list-style: none;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
   margin: 0 auto;
   margin-left: 1.5rem;
@@ -31357,6 +31354,7 @@ body{
   position: relative;
   color: #fff;
   text-decoration: none;
+  font-family: "Alata", sans-serif;
 }
 
 .nav-link::after {
@@ -31364,10 +31362,10 @@ body{
   position: absolute;
   top: 2rem;
   background-color: #fff;
-  height: .2rem;
+  height: 0.2rem;
   width: 0%;
   opacity: 0;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav-link::before {
@@ -31375,26 +31373,91 @@ body{
   position: absolute;
   top: 2rem;
   background-color: #fff;
-  height: .2rem;
+  height: 0.2rem;
   width: 0%;
   opacity: 0;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav-link::before {
-  right: 20%;
+  right: 32%;
 }
 
 .nav-link::after {
-  left: 20%;
+  left: 32%;
 }
 
-.nav-link:hover::after,.nav-link:hover::before {
-  width: 2rem;
+.nav-link:hover::after,
+.nav-link:hover::before {
+  width: 0.8rem;
   opacity: 1;
 }
 
-/* Mobile view background img */
+/* FOOTER*/
+
+.footer-link::after {
+  left: 20%;
+}
+
+.footer-link::before {
+  right: 20%;
+}
+
+.footer-links::after {
+  left: 40%;
+}
+
+.footer-links::before {
+  right: 40%;
+}
+
+.footer-link::before {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  background-color: #fff;
+  height: 0.2rem;
+  width: 0%;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer-link::after {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  background-color: #fff;
+  height: 0.2rem;
+  width: 0%;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer-link {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Alata", sans-serif;
+}
+
+.footer-item {
+  list-style: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.footer-link:hover::after,
+.footer-link:hover::before {
+  width: 0.8rem;
+  opacity: 1;
+}
+
+.footer-logo h3 {
+  font-family: 'Alata', sans-serif;
+}
 
 @media (min-width: 640px){
   .sm\:container{
@@ -184315,5 +184378,3 @@ body{
             animation: bounce 1s infinite;
   }
 }
-
-
