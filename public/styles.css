@@ -31275,35 +31275,6 @@ html {
   left: 50%;
 }
 
-/* .footer-logo ul li a img:hover {
-  border-bottom-width: 3px;
-  border-color: #fff;
-} */
-
-/* .footer-logo ul li a img:after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 30%;
-} */
-
-/* .footer-link ul li a:hover {
-  border-bottom: 3px solid white;
-}
-.footer-logo ul li a img:hover:after {
-  border-bottom: 3px solid white;
-} */
-
-/* nav ul li a:after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 30%;
-}
-nav ul li a:hover:after {
-  border-bottom: 3px solid white;
-} */
-
 body {
   overflow-x: hidden;
 }
