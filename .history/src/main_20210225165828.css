@@ -3,8 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import '/public/styles.css';
-
+@import "/public/styles.css" 
 html {
   scroll-behavior: smooth;
 }
@@ -209,6 +208,5 @@ body {
 }
 
 .footer-logo h3 {
-  font-family: 'Alata', sans-serif;
-  
+  font-family: "Alata", sans-serif;
 }
