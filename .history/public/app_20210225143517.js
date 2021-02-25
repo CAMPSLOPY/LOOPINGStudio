@@ -19,6 +19,6 @@ links.forEach((link) => {
 AOS.init({
   // offset: 120,
   delay: 400,
-  duration: 1000,
+  duration: 500,
   once: false,
 });

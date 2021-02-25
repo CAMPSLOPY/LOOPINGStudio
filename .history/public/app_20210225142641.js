@@ -16,9 +16,4 @@ links.forEach((link) => {
   });
 });
 
-AOS.init({
-  // offset: 120,
-  delay: 400,
-  duration: 1000,
-  once: false,
-});
+AOS.init();
