@@ -1,18 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,200;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 html {
   scroll-behavior: smooth;
 }
-
 .header-image {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent),
-    url(../public/images/desktop/image-hero.jpg);
+    url(/public/images/desktop/image-hero.jpg);
 }
 
 .earth {
@@ -62,6 +59,34 @@ html {
   top: 50%;
   left: 50%;
 }
+
+/* .footer-logo ul li a img:hover {
+  border-bottom-width: 3px;
+  border-color: #fff;
+} */
+
+/* .footer-logo ul li a img:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+} */
+
+/* .footer-link ul li a:hover {
+  border-bottom: 3px solid white;
+}
+.footer-logo ul li a img:hover:after {
+  border-bottom: 3px solid white;
+} */
+/* nav ul li a:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+nav ul li a:hover:after {
+  border-bottom: 3px solid white;
+} */
 
 body {
   overflow-x: hidden;
@@ -211,6 +236,6 @@ body {
 }
 
 .footer-logo h3 {
-  font-family: 'Alata', sans-serif;
-  
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
 }
